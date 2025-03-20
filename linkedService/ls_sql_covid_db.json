@@ -1,0 +1,17 @@
+{
+	"name": "ls_sql_covid_db",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "covid-report-srvv.database.windows.net",
+			"database": "covid-db",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "akash",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQENEQzZCRDg0LTRFMUQtNDcyRS1BODA5LUVFNERFMjgxNzFGMF8wYzkyMjEwYS0zMzMxLTRlZjgtOWJmZC0zNzBiNTI5ZjU5YWQiDQp9"
+		}
+	}
+}
